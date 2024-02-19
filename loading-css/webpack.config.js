@@ -7,10 +7,9 @@ module.exports = {
     bar: './bar.js'
   },
   output: {
-    filename: '[name].js',
-    path: __dirname + '/dist'
+    filename: '[name].js'
   },
-  mode: 'development',
+  mode: devMode ? 'development' : 'production',
   devtool: false,
   module: {
     rules: [
