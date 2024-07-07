@@ -1,0 +1,3 @@
+## depend on
+
+如果entry与此entry的depenOn指定的入口引用了同一模块，那么此模块只会存在depenOn指定的入口中
